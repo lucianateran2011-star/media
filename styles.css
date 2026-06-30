@@ -227,8 +227,10 @@ body {
   gap: 0.5rem;
 }
 
-.header-left h1 .icon {
-  font-size: 1.5rem;
+.header-left h1 .header-logo {
+  height: 4rem;
+  width: auto;
+  object-fit: contain;
 }
 
 .header-left p {
@@ -1354,3 +1356,4 @@ body {
     padding: 0.75rem;
   }
 }
+
